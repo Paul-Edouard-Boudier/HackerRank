@@ -1,0 +1,6 @@
+_ = input()
+e = set(input().split())
+_ = input()
+f = set(input().split())
+print(len(e^f))
+#print(len(e.symmetric_difference(f)))
